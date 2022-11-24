@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Event Handling</title>
+</head>
+
+<body>
+    <h1>Sinhgad College Of Engineering, Pune</h1>
+    <br>
+    <div id="div1" onmouseover="this.style.background='aquamarine'" onmouseout="this.style.background='papayawhip'" ;
+        style="background-color: papyawhip; height:50px;width: 300px;">
+        <p>This is div tag for on mouse over event</p>
+    </div>
+    <br>
+    <a href="https://www.google.com" target="blank" id="div2" onfocus="this.style.background='greenyellow'"
+        onblur="this.style.background='papayawhip'" style="
+    background-color: papayawhip;">
+        Click this anchor tag for on focus Event
+    </a>
+</body>
+
+</html>
